@@ -69,7 +69,7 @@ newlist.append('Neil')
 newtuple = tuple(newlist)
 print(newtuple)
 
-(one, *two, hey ) = anothertuple
+(one, *two, *hey ) = anothertuple
 print(one)
 print(two)
 print(hey)
